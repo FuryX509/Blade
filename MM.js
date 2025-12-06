@@ -219,7 +219,7 @@ trace("zp.f");*/
         };
     });  
 //traceClass("rf.h");
-/*var ccClass = Java.use("ir.co.sadad.baam.widget.digitalSign.utils.CryptoService");
+/*var ccClass = Java.use("widget.digitalSign.utils.CryptoService");
 ccClass.encrypt.overload('java.lang.String', 'java.lang.String').implementation = function(a,b) {
 			console.log(a);
 			var mp4 = 'fc285a2074165f3fcb50b3471919e7d9';
@@ -1140,25 +1140,10 @@ traceClass("j.j.a.f.m$b$a")*/
 //trace("android.util.Log")
 //trace("org.mmessenger.tgnet.ConnectionsManager")
 //trace("org.mmessenger.messenger.l6")
-//traceClass("ir.adanic.kilid.service.SignatureService")
-//traceClass("ir.tapsell.sdk.l.f")
-/*traceClass("ir.tapsell.sdk.l.f")
-traceClass("ir.tapsell.sdk.l.g")
-traceClass("ir.tapsell.sdk.l.h")
-traceClass("ir.tapsell.sdk.l.i")
-traceClass("ir.tapsell.sdk.l.j")
-traceClass("ir.tapsell.sdk.l.k")
-traceClass("ir.tapsell.sdk.l.l")
-traceClass("ir.tapsell.sdk.l.m")
-traceClass("ir.tapsell.sdk.l.n")
-traceClass("ir.tapsell.sdk.l.o")
-traceClass("ir.tapsell.sdk.l.q")
-traceClass("ir.tapsell.sdk.l.r")
 /*traceClass("mb.j")
 traceClass("mb.j$c");
 traceClass("mb.j$d");
 */
-//traceClass("ir.appsan.appsansdkinterface.services.online.UserSSOApiImplementation");
 //trace("com.google.protobuf");
 /*traceClass("com.google.api.Service");
 traceClass("com.google.api.Http");
@@ -1172,7 +1157,6 @@ traceClass("com.google.protobuf.GeneratedMessageV3");
 traceClass("com.google.protobuf.Api");
 traceClass("com.google.protobuf.ApiOrBuilder");
 traceClass("com.google.protobuf.Message");*/
-//traceClass("ir.ssaa.sabteman.activities.login.LoginActivity");
 
 //***************************************************************************************************************************
 console.log("---");
@@ -2022,7 +2006,7 @@ console.log("---");
 traceClass("q1.a");
 //traceClass("s1.a");
 //trace("io.grpc.internal.GrpcUtil");
-/*let NetworkDialogUtil = Java.use("ir.ssaa.sabteman.ui.shared.NetworkDialogUtil");
+/*let NetworkDialogUtil = Java.use("ui.shared.NetworkDialogUtil");
 		NetworkDialogUtil["hasVpn"].implementation = function (activity) {
 			console.log(`NetworkDialogUtil.hasVpn is called: activity=${activity}`);
 			let result = this["hasVpn"](activity);
@@ -2041,7 +2025,7 @@ Trace["isEnabled"].implementation = function () {
 
 /*traceClass("io.grpc.ServerInterceptors");
 trace("io.grpc.MethodDescriptor");
-trace("ir.appsan.crm.intr.sso.UserSSOServiceGrpc");*/
+trace("intr.sso.UserSSOServiceGrpc");*/
 
 //trace("io.grpc.protobuf.lite.ProtoLiteUtils");
 //trace("io.grpc.okhttp");
@@ -2049,4 +2033,5 @@ trace("ir.appsan.crm.intr.sso.UserSSOServiceGrpc");*/
 
 //traceClass("java.net.URI");
 	});   
+
 }, 0);
